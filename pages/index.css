@@ -183,6 +183,13 @@
   line-height: 30px;
 }
 
+/* ##################inicio da section reservation####################### */
+
+.reservation {
+  margin: 0;
+  padding: 0;
+}
+
 .form__container {
   margin: 0;
   padding: 100px 0px 120px 0px;
@@ -194,8 +201,6 @@
   flex-direction: column;
   justify-content: center;
 }
-
-/* ##################inicio da section reservation####################### */
 
 .reservation__title {
   margin: 0 0 80px 0;

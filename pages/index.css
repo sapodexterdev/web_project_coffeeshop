@@ -187,11 +187,6 @@
 
 .reservation {
   margin: 0;
-  padding: 0;
-}
-
-.reservation {
-  margin: 0;
   padding: 100px 0px 120px 0px;
   box-sizing: border-box;
   background-color: #d9e7ff;
@@ -277,7 +272,7 @@
   border-radius: 2px;
 }
 
-.form__label--center {
+.form__label-center {
   margin: 0;
   padding: 0;
   display: flex;

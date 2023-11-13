@@ -250,7 +250,7 @@
   line-height: 30px;
 }
 
-.form__button_el_send {
+.form__button {
   display: block;
   margin: 0 auto 32px;
   padding: 0;
@@ -277,10 +277,14 @@
   align-items: center;
 }
 
-.form__checkbox_el_agree {
+.form__checkbox {
   width: 20px;
   height: 20px;
   margin: 0 12px 0;
   border: 2px solid #838383;
   border-radius: 2px;
+}
+
+.form__label--center {
+  margin: 0;
 }

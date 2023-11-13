@@ -269,14 +269,6 @@
   color: #ffffff;
 }
 
-.form__agree {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .form__checkbox {
   width: 20px;
   height: 20px;

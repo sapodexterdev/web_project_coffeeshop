@@ -8,7 +8,6 @@
     <meta name="description" content="coffee shop" />
     <meta name="keywords" content="coffee, coffee shop, coffee house" />
     <title>Triple Expresso</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -173,10 +172,158 @@
             </fieldset>
           </form>
         </section>
-        <section id="menu" class="menu"></section>
-        <section id="about" class="about"></section>
+        <section id="menu" class="menu">
+          <h1 class="menu__title">Cardápio</h1>
+          <h2 class="menu__subtitle">
+            Preparamos café a partir de grãos torrados localmente com
+            certificação Fairtrade e usamos xícaras biodegradáveis. Todos os
+            chás da nossa coleção custam $2/xícara
+          </h2>
+          <div class="menu__cards">
+            <div class="card">
+              <h2 class="card__title">Filtro</h2>
+              <ul class="card__list-item">
+                <li class="card__list-item">
+                  Normal (350 ml)
+                  <span class="card__list-divider"></span>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Grande (470 ml)
+                  <span class="card__list-divider"></span>
+                  $1,25
+                </li>
+                <li class="card__list-item">
+                  Extra grande (591,47 mL)
+                  <span class="card__list-divider"></span>
+                  $1,5
+                </li>
+                <li class="card__list-item">
+                  Tamanho do copo (709,76 mL, descafeinado)
+                  <span class="card__list-divider"></span>
+                  $1,75
+                </li>
+                <li class="card__list-item">
+                  Café Gelado (470 ml)
+                  <span class="card__list-divider"></span>
+                  $1,25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h2 class="card__title">Expresso</h2>
+              <ul class="card__list-item">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"></span>
+                  $2,25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>
+                  $2,25
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Nascer do sol na Área da Baía (descafeinado)
+                  <span class="card__list-divider"></span>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h2 class="card__title">Produtos de Padaria</h2>
+              <ul class="card__list-item">
+                <li class="card__list-item">
+                  Croissant de Amêndoa
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Pão de Banana
+                  <span class="card__list-divider"></span>
+                  $1,75
+                </li>
+                <li class="card__list-item">
+                  Torta de Limão
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Bolo Veludo Azul
+                  <span class="card__list-divider"></span>
+                  $3,75
+                </li>
+                <li class="card__list-item">
+                  Cookie web
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Baguete fresco
+                  <span class="card__list-divider"></span>
+                  $0,25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <h2 class="about__title">Sobre o café</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nosso café está localizado na biblioteca Triple Peaks. Possui 6
+              mesas e Wi-Fi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nossa principal missão é manter nossos hóspedes confortáveis e
+              energizados.
+            </p>
+            <p class="about__paragraph">
+              Além disso, tentamos reduzir nosso impacto ambiental para não
+              vendermos copos descartáveis. Mas você pode comprar um de nossos
+              copos reutilizáveis!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt=""
+            class="footer__logo"
+          />
+          <div class="footer__social-content">
+            <h3 class="footer__social-heading">Mídia Social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+                <a href="" class="footer__link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+                <a href="" class="footer__link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2023 - Rafael luz</p>
+      </footer>
     </div>
   </body>
 </html>

@@ -9,3 +9,4 @@ A página da Cafeteria Triple Expresso é o terceiro projeto no programa de dese
 - Posicionamento
 - Incorporação de vídeos do YouTube
 - Formulários
+- Animações e Transições

@@ -1,16 +1,11 @@
-/* ##################importando normalize####################### */
 @import url(../vendor/normalize.css);
-/* ##################importando header####################### */
+@import url(../blocks/nav.css);
+@import url(../blocks/card.css);
+@import url(../blocks/form.css);
 @import url(../blocks/header.css);
-/* ##################importando recipes####################### */
 @import url(../blocks/recipes.css);
-/* ##################importando reservation####################### */
 @import url(../blocks/reservation.css);
-/* ##################importando menu####################### */
 @import url(../blocks/menu.css);
-/* ##################importando sobre####################### */
 @import url(../blocks/about.css);
-/* ##################importando footer####################### */
 @import url(../blocks/footer.css);
-/* ##################importando page####################### */
 @import url(../blocks/page.css);

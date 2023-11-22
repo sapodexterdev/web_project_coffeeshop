@@ -1,7 +1,5 @@
 /* ##################importando normalize####################### */
 @import url(../vendor/normalize.css);
-/* ##################importando page####################### */
-@import url(../blocks/page.css);
 /* ##################importando header####################### */
 @import url(../blocks/header.css);
 /* ##################importando recipes####################### */
@@ -14,3 +12,5 @@
 @import url(../blocks/about.css);
 /* ##################importando footer####################### */
 @import url(../blocks/footer.css);
+/* ##################importando page####################### */
+@import url(../blocks/page.css);
